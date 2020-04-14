@@ -1,0 +1,54 @@
+html, body {
+	width: 100%;
+	height : 100%;
+}
+
+body {
+	background: url(cover.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.buffer {
+	height: 20rem;
+}
+
+a {
+	color: #212529;
+	font-size: 1.6rem;
+	padding-right: 40px; 
+	transition: all 1.1s linear;
+}
+
+h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 4rem;
+}
+
+h4 {
+	font-family: 'Bitter', serif;
+	font-size: 2.4rem;
+	font-style: italic;
+}
+
+h6 {
+	font-family: 'Girassol', cursive;
+	font-size: 1.7rem;
+	font-style: italic;
+}
+
+.btn {
+	padding: 1rem 2rem;
+	border-radius: 999px;
+	
+}
+
+.xsbtn {
+	transition: all 1s linear;
+}
+
+.xsbtn:hover {
+	transform: scale(1.3);
+	color: #6A6A6C;
+	border-color: #6A6A6C;
+}
+

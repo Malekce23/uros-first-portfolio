@@ -1,0 +1,39 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: url(cover.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+a {
+	color: #212529;
+	font-size: 1.6rem;
+	padding-right: 40px; 
+	transition: all 1.1s linear;
+}
+
+.buffer {
+	height: 5rem;
+}
+
+img {
+	border-radius: 100%;
+	padding-top: 2rem;
+	float: left;
+
+}
+
+.container {
+	max-width: 800px;
+}
+
+p {
+	padding-left: 100px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3rem;
+	color: #ffffff;
+}
